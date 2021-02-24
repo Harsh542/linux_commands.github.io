@@ -16,8 +16,8 @@
 13.touch test                         -> to create a file with name "test"
 14.touch test.txt                     -> create a text file
 15.rm test.txt                        -> to remove a file
-16.mkdir filename                     -> to create a directory or folder 
-17.rmdir filename                     -> to remove a directory or folder
+16.mkdir dirname                      -> to create a directory or folder 
+17.rmdir dirname                      -> to remove a directory or folder
 18.man ls                             -> gives the command manual
 19.cp test /home/                     -> copy file test in home directory
 20.whoami                             -> gives the username
@@ -31,4 +31,26 @@
 28.cat filename                       -> to open a file
 29.echo data >> filename              -> to write or add data in a file
 30.nano filename                      -> open a file in nano editor
+31.df -m                              -> to see the available space in each partition in system
+32.chmod +x filename.py               -> to make a file executable
+33.hostname                           -> gives the hostname in the network
+34.hostname -I                        -> gives the ip address of the network
+35.ps -aux                            -> gives the list of processes running on computer
+36.top                                -> gives the list of process which are refreshing itself
+37.kill 1234(pid)                     -> to end any program that is running in background
+38.service --status-all               -> to print the list of services in the system
+39.service bluetooth status           -> to print a detailed status of a particular service
+40.sudo service bluetooth restart     -> to restart the particular running service
+41.sudo service bluetooth stop        -> to stop the particular running service
+42.mv text.py location                -> move the "text.py" file into location directory
+43.cp /home/beryl/dir1/file.txt
+      /home/beryl/                    -> take the file from the absolute path and copy it into the particular abolute path
+44.ls -R                              -> shows the directories inside the directories until all directories opens
+45.touch .filename                    -> to create a hidden file which cannot be seen using ls
+46.ls -a                              -> to print hidden also
+47.printf "hello\n"                   -> print hello on command line
+48.sudo apt install package_name      -> install the packages
+49.chmod 526 filename                 -> to change the permissions of a file for owner or group or others
+50.ps -ef                             -> gives the processes id of all the processes running in system
 
+                              
