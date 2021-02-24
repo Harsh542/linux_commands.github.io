@@ -1,0 +1,34 @@
+                                         -------------------Linux Commands:---------------------------
+
+
+1.cd                                  -> changes directory
+2.pwd                                 -> show current directory
+3.ifconfig                            -> to show current ip address
+4.ping                                -> to test the reachabilty of network
+5.clear                               -> to clear the terminal
+6.apt -get update && apt -get upgrade -> to download and upgrade the new packages of linux .
+7.uname                               -> gives username
+8.uname -r                            -> gives recursive details
+9.uname -a                            -> gives all details
+10.history                            -> gives the history of previous fired commands
+11.ls                                 -> gives list of all directories
+12.cd Desktop/                        -> move to desktop directory
+13.touch test                         -> to create a file with name "test"
+14.touch test.txt                     -> create a text file
+15.rm test.txt                        -> to remove a file
+16.mkdir filename                     -> to create a directory or folder 
+17.rmdir filename                     -> to remove a directory or folder
+18.man ls                             -> gives the command manual
+19.cp test /home/                     -> copy file test in home directory
+20.whoami                             -> gives the username
+21.cd ..                              -> move to one previous level directory
+22.cd ../..                           -> move to multiple previous level directory
+23.cd ~                               -> move to home directory
+24.cd ~/Desktop                       -> move to desktop folder
+25.cd /var/log                        -> move directory to /var/log directory 
+26.mv text new                        -> change the name of file (for eg. text is renamed as new)
+27.locate filename                    -> to find the location of a file.
+28.cat filename                       -> to open a file
+29.echo data >> filename              -> to write or add data in a file
+30.nano filename                      -> open a file in nano editor
+
