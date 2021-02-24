@@ -52,5 +52,15 @@
 48.sudo apt install package_name      -> install the packages
 49.chmod 526 filename                 -> to change the permissions of a file for owner or group or others
 50.ps -ef                             -> gives the processes id of all the processes running in system
+51.sudo su                            -> to change from regular user to sudo user
+52.vim filename                       -> to open a file in vim editor
+53.sudo apt install vim               -> to install vim editor
+54.exit                               -> to switch back to normal user again from super user
+55.i                                  -> to insert or write something in vim editor
+56.esc                                -> to escape from insertion 
+57):q                                 -> to exit from a vim editor without saving the file
+58):wq                                -> to exit from a vim editor after saving the file
+59):q!                                -> to exit from vim without doing any changes in vim editor
+
 
                               
